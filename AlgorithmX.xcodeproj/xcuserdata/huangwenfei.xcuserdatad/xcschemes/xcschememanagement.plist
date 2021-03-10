@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AlgorithmX OSX Tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>AlgorithmX OSX.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AlgorithmX iOS Tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AlgorithmX iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>AlgorithmXPackageDescription.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>AlgorithmXPackageTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>83B02A4B25D1301E00DB2CDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83B02A5325D1301E00DB2CDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AlgorithmX::AlgorithmX</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AlgorithmX::AlgorithmXPackageTests::ProductTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AlgorithmX::AlgorithmXTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AlgorithmX::SwiftPMPackageDescription</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
