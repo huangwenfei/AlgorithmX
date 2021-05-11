@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AlgorithmX"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.2"
   spec.summary      = "Basic algorithm library."
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   Basic algorithm library. Ep: LinkedList、 Stack、 Queue、... Graph .
                    DESC
 
-  spec.homepage     = "https://gitee.com/windyhuangwenfei/AlgorithmX"
+  spec.homepage     = "https://github.com/huangwenfei/AlgorithmX"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -71,7 +71,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://gitee.com/windyhuangwenfei/AlgorithmX.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/huangwenfei/AlgorithmX.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

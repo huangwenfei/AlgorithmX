@@ -11,22 +11,22 @@ import Foundation
 public struct BinaryHeap<Element: Equatable>: HeapProtocol {
     
     public typealias Element = Element
-    public typealias Comparator = Self.Comparator
+    public typealias ComparatorType = Self.Comparator
     
     internal var elements: [Element]
-    internal var comparator: Comparator
+    internal var comparator: ComparatorType
     
     public var count: Int { elements.count }
     public var isEmpty: Bool { elements.isEmpty }
     
-    public init(comparator: @escaping Comparator) {
+    public init(comparator: @escaping ComparatorType) {
         self.elements = []
         self.comparator = comparator
 
         heapify()
     }
 
-    public init<S>(elements: S, comparator: @escaping Comparator) where S: Sequence, S.Element == Element {
+    public init<S>(elements: S, comparator: @escaping ComparatorType) where S: Sequence, S.Element == Element {
         self.elements = .init(elements)
         self.comparator = comparator
 
@@ -109,7 +109,7 @@ public struct BinaryHeap<Element: Equatable>: HeapProtocol {
       return nil
     }
     
-    public mutating func reheap(byNewComparator new: @escaping Comparator) {
+    public mutating func reheap(byNewComparator new: @escaping ComparatorType) {
         self.comparator = new
         heapify()
     }
