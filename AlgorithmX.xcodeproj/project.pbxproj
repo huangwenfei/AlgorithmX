@@ -215,7 +215,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83061437264AA2640066611D /* AlgorithmX.podspec.github */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlgorithmX.podspec.github; sourceTree = SOURCE_ROOT; };
+		83061437264AA2640066611D /* AlgorithmX.podspec.github */ = {isa = PBXFileReference; lastKnownFileType = text; path = AlgorithmX.podspec.github; sourceTree = SOURCE_ROOT; };
 		834E9CB025D13CB4005BD139 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		834E9CD625D178A5005BD139 /* AlgorithmX.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AlgorithmX.podspec; sourceTree = SOURCE_ROOT; };
 		83B02A4C25D1301E00DB2CDD /* AlgorithmX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgorithmX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1135,7 +1135,7 @@
 				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 10.10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1525,6 +1525,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -1550,6 +1551,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;

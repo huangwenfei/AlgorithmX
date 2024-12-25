@@ -31,8 +31,17 @@ class AlgorithmXTests: XCTestCase {
     }
 
     func test() {
-//        let graph = UULGraph<Int>()
-//        let graph1 = UWLGraph<Int, Double>()
+        func com(_ lhs: Double, _ rhs: Double) -> Bool {
+            lhs > rhs
+        }
+        var heapSort = HeapSort(
+            elements: [1.4, 22.8, 22.4, 12.3, 0.6, 0.4, 45.3, 21.3],
+            comparator: com
+        )
+        heapSort.sorted()
+        print(heapSort)
+        heapSort.add(element: 10)
+        print(heapSort)
     }
     
     func testPerformanceExample() throws {
