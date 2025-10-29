@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AlgorithmX"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Basic algorithm library."
   
   spec.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "BSD 3-Clause", :file => "LICENSE" }
   spec.author             = { "黄文飞" => "yi.yuan.zi@163.com" }
 
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "10.0"
   spec.osx.deployment_target = "10.15"
   spec.source       = { :git => "https://github.com/huangwenfei/AlgorithmX.git", :tag => spec.version }
   

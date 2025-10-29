@@ -39,7 +39,7 @@ let testSourcePathPrefix = "Graph/Sources/Imgs/"
 let package = Package(
     name: "AlgorithmX",
     platforms: [
-        .iOS("12.0"),
+        .iOS("10.0"),
         .macOS("10.15")
     ],
     products: [
